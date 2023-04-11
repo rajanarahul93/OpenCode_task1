@@ -1,0 +1,26 @@
+ 1)Briefly the difference between Git and GitHub
+
+
+Git and GitHub are both widely used in software development, but they serve different purposes. Git is a distributed version control system that allows developers to track changes in their codebase and collaborate with others. It provides features such as versioning, branching, merging, and reverting changes, which make it easier for developers to work on the same codebase simultaneously and manage changes effectively. Git operates locally on a developer's computer and does not require an internet connection to function.
+
+On the other hand, GitHub is a web-based hosting service for Git repositories. It provides a centralized platform for developers to store and manage their Git repositories in the cloud, making it easy to collaborate with teammates and share code with others. GitHub also offers additional features such as issue tracking, project management, and continuous integration, which help streamline the software development process.
+
+In summary, Git is a distributed version control system that allows developers to manage changes in their codebase, while GitHub is a web-based hosting service for Git repositories that provides a centralized platform for collaboration and additional project management features. Git is the underlying technology, while GitHub is a hosting service that leverages Git for code management and collaboration.
+
+2) Briefly about 5 basic git commands.
+
+a)git add:- Moves changes from the working directory to the staging area. This gives you the opportunity to prepare a snapshot before committing it to the official history.
+b)git branch:-This command is your general-purpose branch administration tool. It lets you create isolated development environments within a single repository.
+c)git checkout:-In addition to checking out old commits and old file revisions, git checkout is also the means to navigate existing branches. Combined with the basic Git commands, it’s a way to work on a particular line of development.
+d)git clean:-Removes untracked files from the working directory. This is the logical counterpart to git reset, which (typically) only operates on tracked files.
+e)git commit:-Takes the staged snapshot and commits it to the project history. Combined with git add, this defines the basic workflow for all Git users.
+
+3)How to make a Pull Request in GitHub?
+
+a)firstly go to GitHub website and sign in using email.
+b)Click Preview Pull Request. GitHub Desktop will open a preview dialog showing the diff of the changes between your current branch and the base branch.
+c)Confirm that the branch in the base: dropdown menu is the branch where you want to merge your changes.
+d)GitHub Desktop will advise you whether the current branch can be automatically merged into the base branch.
+e)Click Create Pull Request. GitHub Desktop will open your default browser to take you to GitHub.
+f)Type a title and description for your pull request.
+g)To create a pull request that is ready for review, click Create Pull Request. To create a draft pull request, use the drop-down and select Create Draft Pull Request, then click Draft Pull Request.
